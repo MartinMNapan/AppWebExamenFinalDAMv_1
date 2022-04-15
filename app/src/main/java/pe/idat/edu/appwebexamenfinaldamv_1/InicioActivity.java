@@ -32,13 +32,13 @@ public class InicioActivity extends AppCompatActivity {
         //oading.setAnimation(a2);
         //logo1.setAnimation(a1);
         //
-        new Handler().postDelayed(new Runnable() {
+        new Handler().postDelayed(new Runnable(){
             @Override
             public void run() {
                 Intent intent = new Intent(InicioActivity.this,HomeActivity.class);
                 startActivity(intent);
                 finish();
             }
-        },4000);
+        },5000);
     }
 }

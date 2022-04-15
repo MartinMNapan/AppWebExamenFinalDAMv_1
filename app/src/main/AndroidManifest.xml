@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppWebExamenFinalDAMv_1">
-        <activity android:name=".InicioActivity"></activity>
+        <activity android:name=".LugaresRecargaActivity"></activity>
+        <activity android:name=".EstadoBateriaActivity" />
+        <activity android:name=".ScooterActivity" />
+        <activity android:name=".InicioActivity" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".RegistrerActivity" />
         <activity android:name=".MainActivity">
