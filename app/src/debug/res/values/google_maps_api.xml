@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=91:91:97:53:19:1F:1B:70:6E:5F:50:C9:C3:FD:14:1A:4C:0F:83:65%3Bpe.idat.edu.appwebexamenfinaldamv_1
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    pe.idat.edu.appwebexamenfinaldamv_1
+
+    SHA-1 certificate fingerprint:
+    91:91:97:53:19:1F:1B:70:6E:5F:50:C9:C3:FD:14:1A:4C:0F:83:65
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDDlxkInoK0m312Ex0_jEYg5B4_u0O1y5U</string>
+</resources>
