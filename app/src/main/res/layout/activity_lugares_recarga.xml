@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
         android:text="NUESTRAS LUGARES DE RECARGA"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:textStyle="normal|bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:text="Jockey Plaza Bouleveard"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:textStyle="normal|bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.091"
@@ -38,7 +38,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="28dp"
         android:text="Santiago de Surco 15023"
-        android:textSize="20sp"
+        android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
@@ -49,7 +49,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="76dp"
         android:text="Kio Petroperu "
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:textStyle="normal|bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
@@ -61,7 +61,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="20dp"
         android:text="Carr. Panamericana Sur 245"
-        android:textSize="20sp"
+        android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
@@ -73,17 +73,18 @@
         android:drawableLeft="@android:drawable/ic_menu_compass"
         android:text="Ver en el Mapa"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.929"
         app:layout_constraintTop_toTopOf="@+id/textView6" />
 
     <Button
         android:id="@+id/btnMapa2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="38dp"
+        android:layout_marginTop="36dp"
         android:drawableLeft="@android:drawable/ic_menu_mylocation"
         android:text="Ver en el Mapa"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.929"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView8" />
 </androidx.constraintlayout.widget.ConstraintLayout>
