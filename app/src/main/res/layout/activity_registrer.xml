@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="40dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Usuario:"
+        android:textSize="15dp"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtUsuario"
+        android:hint="Ingrese nombre de Usuario"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contraseña:"
+        android:textSize="15dp"
+        android:layout_below="@id/txtUsuario"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtContraseña"
+        android:hint="Ingrese contraseña"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/txtUsuario"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contraseña:"
+        android:textSize="15dp"
+        android:layout_below="@id/txtContraseña"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtRContraseña"
+        android:hint="Confirme contraseña"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/txtContraseña"/>
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtRContraseña"
+        android:layout_marginTop="50dp"
+        android:text="Registrar"
+        app:backgroundTint="#3F51B5" />
+
+    <Button
+        android:id="@+id/btnIngresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnRegistrar"
+        android:layout_marginTop="10dp"
+        android:text="Ingresar"
+        app:backgroundTint="#E91E63" />
+
+</RelativeLayout>
