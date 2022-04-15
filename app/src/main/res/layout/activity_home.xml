@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,12 +8,70 @@
     tools:context=".HomeActivity">
 
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textColor="@color/black"
-        android:textSize="30dp"
-        android:text="PAGINA PRINCIPAL" />
-</LinearLayout>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="329dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logord2" />
+
+    <Button
+        android:id="@+id/btnRegistrarBateria"
+        android:layout_width="230dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="20dp"
+        android:text="Registrar Scooter Electrico"
+        android:textSize="13sp"
+        app:backgroundTint="#773076"
+        app:cornerRadius="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView" />
+
+    <Button
+        android:id="@+id/btnEstadoBateria"
+        android:layout_width="230dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="10dp"
+        android:text="Ver estado de bateria"
+        android:textSize="13sp"
+        app:backgroundTint="#E91E63"
+        app:cornerRadius="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnRegistrarBateria" />
+
+    <Button
+        android:id="@+id/btnLugaresRecarga"
+        android:layout_width="230dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="10dp"
+        android:text="Lugares de Recarga"
+        android:textSize="13sp"
+        app:backgroundTint="#8BC34A"
+        app:cornerRadius="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnEstadoBateria" />
+
+    <Button
+        android:id="@+id/btnPagos"
+        android:layout_width="230dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="10dp"
+        android:text="Pagos por Suscripcion"
+        android:textSize="13sp"
+        app:backgroundTint="#221A1A"
+        app:cornerRadius="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnLugaresRecarga" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

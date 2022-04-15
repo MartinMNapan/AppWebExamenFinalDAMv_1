@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                     Boolean checkuserpass = bdRide.checkUsuarioContraseña(user,pass);
                     if(checkuserpass == true){
                         Toast.makeText(MainActivity.this, "Ingreso satisfactorio", Toast.LENGTH_SHORT).show();
-                        Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+                        Intent intent = new Intent(getApplicationContext(), InicioActivity.class);
                         startActivity(intent);
                     }else {
                         Toast.makeText(MainActivity.this, "Credenciales invalidos, Intente de nuevo", Toast.LENGTH_SHORT).show();
