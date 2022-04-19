@@ -20,7 +20,7 @@ public class HomeActivity extends AppCompatActivity {
         btnregscoot();
         btnestbat();
         btnlugrec();
-        //btnpago();
+        btnpago();
 
     }
     //
@@ -53,6 +53,17 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(HomeActivity.this, LugaresRecargaActivity.class);
+                startActivity(intent);
+            }
+        });
+    }
+    //
+    private void btnpago(){
+        btnpago=findViewById(R.id.btnPago);
+        btnpago.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeActivity.this, PagoActivity.class);
                 startActivity(intent);
             }
         });

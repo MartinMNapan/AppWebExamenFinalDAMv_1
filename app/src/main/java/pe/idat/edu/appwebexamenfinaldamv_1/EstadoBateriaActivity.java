@@ -54,11 +54,11 @@ public class EstadoBateriaActivity extends AppCompatActivity implements Recycler
     private List<EstadoBateria> getItems(){
         List<EstadoBateria> itemLists = new ArrayList<>();
         itemLists.add(new EstadoBateria("xxxx","yyyy", R.drawable.imagen1));
-        itemLists.add(new EstadoBateria("xxxe","yyyt", R.drawable.imagen1));
-        itemLists.add(new EstadoBateria("xxxr","yyyx", R.drawable.imagen1));
-        itemLists.add(new EstadoBateria("xxxt","yyyn", R.drawable.imagen1));
-        itemLists.add(new EstadoBateria("xxxy","yyym", R.drawable.imagen1));
-        itemLists.add(new EstadoBateria("xxxq","yyya", R.drawable.imagen1));
+        itemLists.add(new EstadoBateria("xxxe","yyyt", R.drawable.image2));
+        itemLists.add(new EstadoBateria("xxxr","yyyx", R.drawable.image3));
+        itemLists.add(new EstadoBateria("xxxt","yyyn", R.drawable.image4));
+        itemLists.add(new EstadoBateria("xxxy","yyym", R.drawable.image5));
+        itemLists.add(new EstadoBateria("xxxq","yyya", R.drawable.image6));
 
         return itemLists;
     }
