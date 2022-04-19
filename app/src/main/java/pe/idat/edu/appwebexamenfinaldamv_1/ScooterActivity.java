@@ -34,10 +34,10 @@ public class ScooterActivity extends AppCompatActivity {
     //
     void CargarProductos(){
         ProductosDAO dao = new ProductosDAO(ScooterActivity.this);
-        dao.AgregarProducto(new Productos(1, "XXXX", "YYYYY", "AAAAA", R.drawable.img2));
-        dao.AgregarProducto(new Productos(2, "XXXX", "YYYYY", "AAAAA", R.drawable.img3));
-        dao.AgregarProducto(new Productos(3, "XXXX", "YYYYY", "AAAAA", R.drawable.img4));
-        dao.AgregarProducto(new Productos(4, "XXXX", "YYYYY", "AAAAA", R.drawable.img5));
+        dao.AgregarProducto(new Productos(1, "Scooter Eléctrico ES1L Ninebot By Segway", "Batería de iones de litio premium de larga duración IPX6 resistente al agua.", "larga duracion", R.drawable.img2));
+        dao.AgregarProducto(new Productos(2, "Scooter Eléctrico L2 Neg/Roj", "Batería de iones de litio premium de larga duración", "larga duracion", R.drawable.img3));
+        dao.AgregarProducto(new Productos(3, "Scooter Eléctrico X7 PRO", "Batería: 6.4 Ah Panasonic Battery", "larga duracion", R.drawable.img4));
+        dao.AgregarProducto(new Productos(4, "Gondi Scooter Eléctrico S12", "48 V / 10 aH", "larga duracion", R.drawable.img5));
         //
         Toast.makeText(this, "Registro de Productos Insertados", Toast.LENGTH_LONG).show();
     }

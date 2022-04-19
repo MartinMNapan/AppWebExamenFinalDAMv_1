@@ -53,12 +53,12 @@ public class EstadoBateriaActivity extends AppCompatActivity implements Recycler
 
     private List<EstadoBateria> getItems(){
         List<EstadoBateria> itemLists = new ArrayList<>();
-        itemLists.add(new EstadoBateria("xxxx","yyyy", R.drawable.imagen1));
-        itemLists.add(new EstadoBateria("xxxe","yyyt", R.drawable.image2));
-        itemLists.add(new EstadoBateria("xxxr","yyyx", R.drawable.image3));
-        itemLists.add(new EstadoBateria("xxxt","yyyn", R.drawable.image4));
-        itemLists.add(new EstadoBateria("xxxy","yyym", R.drawable.image5));
-        itemLists.add(new EstadoBateria("xxxq","yyya", R.drawable.image6));
+        itemLists.add(new EstadoBateria("Paquete de batería de litio para patinete eléctrico","18650 celdas, 60v, 20ah, batería recargable", R.drawable.imagen1));
+        itemLists.add(new EstadoBateria("Paquete de celdas de 3400mAh para patinete eléctrico","18650 celdas, 60v, 20ah, batería recargable", R.drawable.image2));
+        itemLists.add(new EstadoBateria("batería para scooter Eléctrico E 5"," 48 v", R.drawable.image3));
+        itemLists.add(new EstadoBateria("Batería de litio recargable de repuesto para scooter eléctrico","36V, 7800mAh", R.drawable.image4));
+        itemLists.add(new EstadoBateria("Paquete de batería de patinete Eléctrico Xiaomi Mijia M365","Voltaje límite de carga de la batería: 36V", R.drawable.image5));
+        itemLists.add(new EstadoBateria(" Batería Paquete de celdas E-scooters Litio Li-ion","36V 7.8Ah ", R.drawable.image6));
 
         return itemLists;
     }
